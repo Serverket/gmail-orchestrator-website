@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+.bun/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Vite cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test coverage
+coverage/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Bun files
+.bun.lockb
+
+# Vite build files
+__sapper__/
+
+# Optional npm cache directory
+.npm

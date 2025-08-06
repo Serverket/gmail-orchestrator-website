@@ -99,6 +99,36 @@ After building the project (`bun run build`), you can deploy the generated `dist
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
 
+## 🌐 Live Deployment
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72a8f925-d6f0-43e3-8213-21b83f42da0f/deploy-status)](https://app.netlify.com/sites/gmail-orchestrator-website-c67j2/deploys)
+
+The production version of this website is permanently hosted at:
+[https://gmail-orchestrator-website.windsurf.build](https://gmail-orchestrator-website.windsurf.build)
+
+> **Note**: This is the permanent URL provided by our deployment partner. For a shorter, custom URL (e.g. `orchestrator.email`), please follow the Custom Domain Setup instructions below.
+
+### Claiming Your Site
+For permanent ownership and custom domain setup:
+1. [Click here to claim on Netlify](https://app.netlify.com/claim?utm_source=windsurf#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGFpbV93ZWJob29rIjoiaHR0cHM6Ly93ZWItYmFja2VuZC5jb2RlaXVtLmNvbS9uZXRsaWZ5X2NsYWltX3dlYmhvb2siLCJjbGllbnRfaWQiOiI5MHY2M1FUUHlrNWlJRWt5RFo5MF9QenhmOE5JYnZyU0lWR0hVaHpuS2l3Iiwic2Vzc2lvbl9pZCI6IjFLOXN0SDhuQ0FZclFJQXNuaWg1YVBtR1VCaDEifQ._uuuFcTdNjqugCKvck1KCrt4VUOwD9TJZ7giHkd-6eo)
+2. Follow Netlify's verification steps
+3. Set up a custom domain in your Netlify dashboard
+
+### Domain Registration
+For a truly short URL, you'll need to register a custom domain. Popular registrars:
+- [Namecheap](https://www.namecheap.com/) - Affordable domains
+- [Google Domains](https://domains.google/) - Simple integration
+- [Cloudflare](https://www.cloudflare.com/products/registrar/) - Security-focused
+
+After registration, add your domain in Netlify following the Custom Domain Setup steps.
+
+### Custom Domain Setup
+For a shorter, branded URL:
+1. Go to [Netlify Domain Settings](https://app.netlify.com/sites/gmail-orchestrator-website-c67j2/settings/domain)
+2. Click 'Add custom domain'
+3. Enter your preferred domain (e.g. orchestrator.email)
+4. Follow DNS configuration instructions
+
 ## 🔐 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
